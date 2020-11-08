@@ -1,2 +1,2 @@
 language = "python3"
-run = ""
+run = "cd Lab3; pwd; python3 lab3.py"
