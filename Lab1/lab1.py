@@ -22,13 +22,13 @@ def bisector(a, b, side_against_bisector):
 validate_triangle(a,b,c)
 
 bisector_a = bisector(c, b, a)
-print("Бісектриса проведена до а: {:.2f}".format(bisector_a))
+print("Бісектриса проведена до а: {:.4f}".format(bisector_a))
 
 bisector_b = bisector(a, c, b)
-print("Бісектриса проведена до b: {:.2f}".format(bisector_b))
+print("Бісектриса проведена до b: {:.4f}".format(bisector_b))
 
 bisector_c = bisector(a, b, c)
-print("Бісектриса проведена до c: {:.2f}".format(bisector_c))
+print("Бісектриса проведена до c: {:.4f}".format(bisector_c))
 
 # evaluate radiuses 
 # calculate the area  
@@ -36,8 +36,8 @@ semiPerimeter = (a + b + c) / 2
 area = sqrt(semiPerimeter*(semiPerimeter-a)*(semiPerimeter-b)*(semiPerimeter-c))
 
 R = (a * b * c) / (4 * area)
-print("Радіус описаного кола: {:.2f}".format(R))
+print("Радіус описаного кола: {:.4f}".format(R))
 
 r = area / semiPerimeter
-print("Радіус вписаного кола: {:.2f}".format(r))
+print("Радіус вписаного кола: {:.4f}".format(r))
 
