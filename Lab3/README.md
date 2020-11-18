@@ -6,8 +6,8 @@
 Задано число x. Для обчислення суми послідовно додаватимемо an, аж поки не досягнемо k > 10 та |ak| < 0.0001.
 
 ### Звіт
-[Лабораторна 3](https://github.com/DanielJorn/IP_02_Proshchenko_Labs/blob/main/Lab3/03-sum-calculation.docx?raw=true)
+[Лабораторна 3](https://github.com/DanielJorn/IP_02_Proshchenko_Labs/blob/main/reports/03-sum-calculation.docx?raw=true)
 
 ### Демонстрація
-![python example](https://github.com/DanielJorn/IP_02_Proshchenko_Labs/blob/main/Lab3/pythonExample.png)
-![cpp    example](https://github.com/DanielJorn/IP_02_Proshchenko_Labs/blob/main/Lab3/cppExample.png)
+![python example](https://github.com/DanielJorn/IP_02_Proshchenko_Labs/blob/main/examples-of-code-execution/03-pythonExample.png)
+![cpp    example](https://github.com/DanielJorn/IP_02_Proshchenko_Labs/blob/main/examples-of-code-execution/03-cppExample.png)
